@@ -1,0 +1,6 @@
+[
+    {"src":"cube","type":"glb"},
+    {"src":"skybox","type":"glb"},
+    {"src":"uiPlane","type":"obj"},
+    {"src":"building","type":"glb"}
+]

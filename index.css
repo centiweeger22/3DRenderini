@@ -1,0 +1,50 @@
+.dockWindow{
+    width:300px;
+    min-height: 100px;
+    background-image: linear-gradient(rgba(100,100,100),rgba(50,50,50));
+    border: 4px solid rgb(30,30,30);
+    border-radius: 2px;
+    padding:10px;
+    padding-top:0px;
+    z-index: 1;
+}
+.windowHeader{
+    width:calc(100%,20px);
+    background-image: linear-gradient(rgba(70,70,70),rgba(20,20,20));
+    font-family: monospace;
+    font-size: 15px;
+    color:white;
+    margin-left:-10px;
+    margin-right:-10px;
+    text-align: center;
+}
+.dockText{
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+    margin:5px;
+}
+.dockButton{
+    min-height: 20px;
+    background-image: linear-gradient(rgba(120,120,120),rgba(70,70,70));
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+}
+.dockField{
+    min-height: 20px;
+    background-image: linear-gradient(rgba(80,80,80),rgba(30,30,30));
+    background-color: black;
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+
+    border-style: solid;
+    border-width: 3px;
+    
+    border-top-color: #000000;
+    border-left-color: #000000;
+    
+    border-bottom-color: #666666;
+    border-right-color: #666666;
+}

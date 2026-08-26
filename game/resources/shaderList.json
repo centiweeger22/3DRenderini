@@ -1,0 +1,19 @@
+[
+    {"name":"test0","fragmentSrc":"test0frag","vertexSrc":"test0vert"},
+    {"name":"screen","fragmentSrc":"screenfrag","vertexSrc":"screenvert"},
+    {"name":"metalScreen","fragmentSrc":"unlitfrag","vertexSrc":"screenvert"},
+    {"name":"skybox","fragmentSrc":"skyboxfrag","vertexSrc":"skyboxvert"},
+    {"name":"metal","fragmentSrc":"metalfrag","vertexSrc":"metalvert"},
+    {"name":"shiny","fragmentSrc":"shinyFrag","vertexSrc":"metalvert"},
+    {"name":"unlit","fragmentSrc":"unlitfrag","vertexSrc":"unlitvert"},
+    {"name":"billboardCutout","fragmentSrc":"billboardCutoutfrag","vertexSrc":"billboardCutoutvert"},
+    {"name":"toon","fragmentSrc":"toon","vertexSrc":"unlitvert"},
+    {"name":"toon2","fragmentSrc":"toon2","vertexSrc":"unlitvert"},
+    {"name":"checker","fragmentSrc":"checkerFrag","vertexSrc":"test0vert"},
+    {"name":"greenGradient","fragmentSrc":"greenGradientFrag","vertexSrc":"test0vert"},
+    {"name":"unlitShadow","fragmentSrc":"unlitShadowFrag","vertexSrc":"test0vert"},
+    {"name":"DOFBlendAmounts","fragmentSrc":"postProcessing/DOFBlendAmounts","vertexSrc":"postProcessing/outputVert"},
+    {"name":"DOFFarField","fragmentSrc":"postProcessing/DOFFarField","vertexSrc":"postProcessing/outputVert"},
+    {"name":"DOFNearField","fragmentSrc":"postProcessing/DOFNearField","vertexSrc":"postProcessing/outputVert"},
+    {"name":"DOFOutput","fragmentSrc":"postProcessing/DOFOutput","vertexSrc":"postProcessing/outputVert"}
+]

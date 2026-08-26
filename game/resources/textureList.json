@@ -1,0 +1,8 @@
+[
+    {"src":"test.png","name":"test", "sampling":"NEAREST"},
+    {"src":"sky.png","name":"sky", "sampling":"LINEAR"},
+    {"src":"brickTex.png","name":"brickTex", "sampling":"LINEAR"},
+    {"src":"brickNrm.png","name":"brickNrm", "sampling":"LINEAR"},
+    {"src":"white.png","name":"white", "sampling":"LINEAR"},
+    {"src":"testNrm.png","name":"defaultNrm", "sampling":"LINEAR"}
+]
