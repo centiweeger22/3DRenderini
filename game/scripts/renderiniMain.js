@@ -9,8 +9,8 @@ export function init(){
     skybox = rini.createObject(new rini.GameObject([0,0,0],[0,0,0,1],[-1,-1,1],"skybox",["sky"],["unlit"]))
     skybox.depth = false
     skybox.castShadow = false
-    rini.graphics.camera.DOFDepthRange = 100000
-    rini.graphics.camera.DOFTargetDepth = 250
+    rini.graphics.camera.DOFDepthRange = 10
+    rini.graphics.camera.DOFTargetDepth = 35
     rini.graphics.light.setDirection(vec3.normalize([],[0.5,1,0.5]))
     rini.graphics.setSkyboxTexture("sky")
     // rini.graphics.light.setDirection([1,0,0])
@@ -24,6 +24,9 @@ export function update(){
     skybox.position = cameraPosition
     rini.graphics.camera.setPosition(cameraPosition)
     rini.graphics.camera.setTarget([0,0,0])
+    let screenPosition = vec3.transformMat4([],[0,0,0],rini.graphics.camera.viewMatrix)
+    rini.graphics.camera.DOFTargetDepth = -screenPosition[2]*2
+    // console.log(-screenPosition[2]*2)
 }
 export function tick(){
 
